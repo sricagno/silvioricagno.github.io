@@ -29,30 +29,15 @@
 	
 	<!-- Calculated Styles -->
 	<style type="text/css">
-	
-	html {
-		height: 100%;
-		overflow: hidden;
-	}
 
-	body {
-		height:100%;
-		overflow: auto;
-		-webkit-overflow-scrolling: touch;
-	}
-	
-	html{
-		height:100%;
-		background: #ffffff url('img/fondo.jpg'); no-repeat center bottom fixed;
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
-		background-size: cover;
-	}
+html {
+padding-top: 10rem;
+padding-bottom: calc(10rem - 56px);
+background-image: url('img/fondo.jpg');
+background-position: center center;
+background-size: cover;
+}
 
-	#pageser-page{
-		background-color: rgba(0,0,0,0);
-	}
 	
 	.flexbox #pageser-page{
 		align-items: center;
@@ -66,7 +51,7 @@
 	.pageser body, .pageser body p{
         font-family: Helvetica, Arial, sans-serif;
 		font-weight: 400;
-		font-style: ;
+		
         font-size: 20px;
         line-height: 1.50em;
         color:#ffffff;
@@ -75,25 +60,25 @@
 	::-webkit-input-placeholder {
 		font-family:Georgia, 'Times New Roman', Times, serif;
 		font-weight: 400;
-		font-style: ;
+		
 	}
 
 	::-moz-placeholder {
 		font-family:Helvetica, Arial, sans-serif;
 		font-weight: 400;
-		font-style: ;
+		
 	} 
 
 	:-ms-input-placeholder {
 		font-family:Helvetica, Arial, sans-serif;
 		font-weight: 400;
-		font-style: ;
+		
 	} 
 
 	:-moz-placeholder {
 		font-family:Helvetica, Arial, sans-serif;
 		font-weight: 400;
-		font-style: ;
+		
 	}
 
     .pageser h1, .pageser h2, .pageser h3, .pageser h4, .pageser h5, .pageser h6{
@@ -104,7 +89,7 @@
 	#pageser-headline{
 		font-family:'Courier New', Courier, monospace;
 		font-weight: 400;
-		font-style: ;
+		
 				font-size: 35px;
 		color:#ffffff;
 		line-height: 1.00em;
@@ -113,7 +98,7 @@
 	.pageser button{
         font-family: Helvetica, Arial, sans-serif;
 		font-weight: 400;
-		font-style: ;
+		
     }
 	
     .pageser a, .pageser a:visited, .pageser a:hover, .pageser a:active{
@@ -122,56 +107,6 @@
 
 	#pageser-socialprofiles a {
 	  color: #ffffff;
-	}
-	.pageser .btn-primary,
-	.pageser .btn-primary:focus,
-	.gform_button,
-	#mc-embedded-subscribe, .submit-button {
-		color: black;
-		text-shadow: 0 -1px 0 rgba(255,255,255,0.3);
-		background-color: #ffffff;
-		background-image: -moz-linear-gradient(top,#ffffff,#d9d9d9);
-		background-image: -ms-linear-gradient(top,#ffffff,#d9d9d9);
-		background-image: -webkit-gradient(linear,0 0,0 100%,from(#ffffff),to(#d9d9d9));
-		background-image: -webkit-linear-gradient(top,#ffffff,#d9d9d9);
-		background-image: -o-linear-gradient(top,#ffffff,#d9d9d9);
-		background-image: linear-gradient(top,#ffffff,#d9d9d9);
-		background-repeat: repeat-x;
-		filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#d9d9d9', GradientType=0);
-		border-color: #d9d9d9 #d9d9d9 #b3b3b3;
-		border-color: rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25);
-		*background-color: #d9d9d9;
-		filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
-	}
-
-	.pageser .btn-primary:hover,
-	.pageser .btn-primary:active,
-	.pageser .btn-primary.active,
-	.pageser .btn-primary.disabled,
-	.pageser .btn-primary[disabled],
-	.pageser .btn-primary:focus:hover,
-	.pageser .btn-primary:focus:active,
-	.pageser .btn-primary:focus.active,
-	.pageser .btn-primary:focus.disabled,
-	.pageser .btn-primary:focus[disabled],
-	#mc-embedded-subscribe:hover,
-	#mc-embedded-subscribe:active,
-	#mc-embedded-subscribe.active,
-	#mc-embedded-subscribe.disabled,
-	#mc-embedded-subscribe[disabled] {
-		background-color: #d9d9d9;
-		*background-color: #cccccc;
-	}
-
-	.pageser .btn-primary:active,
-	.pageser .btn-primary.active,
-	.pageser .btn-primary:focus:active,
-	.pageser .btn-primary:focus.active,
-	.gform_button:active,
-	.gform_button.active,
-	#mc-embedded-subscribe:active,
-	#mc-embedded-subscribe.active {
-		background-color: #bfbfbf;
 	}
 
 	.form-control,
@@ -192,12 +127,6 @@
 		border-color: #e6e6e6;
 	}
 
-	.pageser input[type='text']:focus {
-		webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075), 0 0 8px rgba(217,217,217,0.6);
-		-moz-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075), 0 0 8px rgba(217,217,217,0.6);
-		box-shadow: inset 0 1px 1px rgba(0,0,0,0.075), 0 0 8px rgba(217,217,217,0.6);
-	}
-    
     #pageser-content {
 		display: none;
 		max-width: 600px;
@@ -224,19 +153,7 @@
 		-webkit-box-shadow: none !important;
 		box-shadow: none !important;
 	}
-							
-	#pageser-page{
-	    background: -moz-radial-gradient(ellipse at center, rgba(0, 0, 0, 0.3) 0%,rgba(0, 0, 0, 0.2) 37%,rgba(0,0,0,0) 68%,rgba(0,0,0,0) 100%);
-	    background: -webkit-radial-gradient(ellipse at center, rgba(0, 0, 0, 0.3) 0%,rgba(0, 0, 0, 0.2) 37%,rgba(0,0,0,0) 68%,rgba(0,0,0,0) 100%);
-	    background: radial-gradient(ellipse at center, rgba(0, 0, 0, 0.3) 0%,rgba(0, 0, 0, 0.2) 37%,rgba(0,0,0,0) 68%,rgba(0,0,0,0) 100%);
-	}
-
-	.pageser body{
-		background: -moz-radial-gradient(center, ellipse cover,  rgba(0,0,0,0) 7%, rgba(0,0,0,0) 80%, rgba(0,0,0,0.23) 100%); 
-		background: -webkit-radial-gradient(center, ellipse cover,  rgba(0,0,0,0) 7%,rgba(0,0,0,0) 80%,rgba(0,0,0,0.23) 100%); 
-		background: radial-gradient(ellipse at center,  rgba(0,0,0,0) 7%,rgba(0,0,0,0) 80%,rgba(0,0,0,0.23) 100%); 
-		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#3b000000',GradientType=1 ); 
-	}
+	
 
 	#pageser-subscribe-btn{
 	    background:transparent;
